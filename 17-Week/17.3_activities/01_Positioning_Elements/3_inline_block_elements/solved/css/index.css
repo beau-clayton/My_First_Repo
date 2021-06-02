@@ -30,3 +30,6 @@ nav {
   margin: 35px;
   margin-top: 50px;
 }
+
+.inline-block{ display: inline-block;
+padding: 15px;}
