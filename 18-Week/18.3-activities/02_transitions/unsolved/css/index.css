@@ -18,12 +18,37 @@
   color: white;
   width: 150px;
   text-align: center;
-  height: 50px;
+    height: 50px;
+    
   /* Add the css property transition here! */
-
 }
-/* active state */
+
 .hoverMe:hover {
+font-size: 18px;
+font-weight: bold;
+  transition: all 1s ease-in;
+  animation-name: test;
+  animation-duration: 4s;
+  width: 200px;
+  height: 75px;
+}
+
+/* active state */
+@keyframes test {  
+  0%   {background-color: red;}
+  10%   {background-color: orange;}
+  20%   {background-color: yellow;}
+  30%   {background-color: yellowgreen;}
+  40%   {background-color: green;}
+  50%   {background-color: blue;}
+  60%   {background-color: blueviolet;}
+  70%   {background-color: purple;}
+  80%   {background-color: palevioletred;}
+  90%   {background-color: pink;}
+  100%   {background-color: red;}
+  
+
+
   /* Add your hover state css here. */
 
 }

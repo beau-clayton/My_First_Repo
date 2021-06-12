@@ -14,9 +14,17 @@ body {
 .rotate {
   grid-area: rotate;
   text-align: center;
+  rtansition
 }
+
 .rotate img {
 /* Write your rotate transform here */
+}
+
+.rotate img:hover {
+  transform: rotate(20deg);
+transition: ease-in 2s;
+transition: ease-out 2s;
 }
 .scale {
   grid-area: scale;
@@ -29,6 +37,8 @@ body {
   height: 50px;
   background-color: red;
   margin: 0 auto;
+  transform: scale(2,3);
+  transition: linear 1s;
   /* Write the scale transform here */
 
 }
@@ -42,6 +52,8 @@ body {
   width: 100px;
   height: 100px;
   background-color: blue;
+  transform: translate(80%, 40%);
+  transition: ease-in 2s;
   /* Write the translate transform here */
 }
 
